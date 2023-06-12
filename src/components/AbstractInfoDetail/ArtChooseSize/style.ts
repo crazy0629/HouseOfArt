@@ -13,6 +13,7 @@ export const ArtSizeHeader = styled.div`
   display: flex;
   justify-content: space-between;
   h1 {
+    font-family: "Helvetica";
     font-weight: 400;
     font-size: 9px;
     line-height: 20px;
@@ -37,3 +38,5 @@ export const SizeGuide = styled.div`
     padding-left: 1px;
   }
 `;
+
+export const ArtSizeItemList = styled.div``;

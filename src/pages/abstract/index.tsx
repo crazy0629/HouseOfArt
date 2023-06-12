@@ -1,7 +1,7 @@
 import React from "react";
 import { LandingLayout } from "../../layout/LandingLayout";
 import { useLocation } from "react-router-dom";
-import { AbstractInfoSection } from "../../modules";
+import { AbstractInfoSection, ProductDescSection } from "../../modules";
 
 export const AbstractPage: React.FC = () => {
   const location = useLocation();
@@ -15,6 +15,7 @@ export const AbstractPage: React.FC = () => {
         ArtDesc={ArtDesc}
         ArtPrice={ArtPrice}
       />
+      <ProductDescSection />
     </LandingLayout>
   );
 };
