@@ -26,6 +26,11 @@ export const CustomerAssessContainer = styled.div`
     text-transform: uppercase;
     color: #000000;
   }
+  @media screen and (max-width: 500px) {
+    h3 {
+      font-size: 18px;
+    }
+  }
 `;
 
 export const AssessStar = styled.div`

@@ -14,6 +14,8 @@ export const CustomerSectionContainer = styled.div`
     text-align: center;
     letter-spacing: 1px;
     color: #000000;
+    width: 95%;
+    margin: auto;
   }
   h2 {
     font-family: "Georgia";
@@ -24,6 +26,15 @@ export const CustomerSectionContainer = styled.div`
     text-align: center;
     color: #000000;
     margin-top: 17px;
+    width: 95%;
+    margin: auto;
+  }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+    }
   }
 `;
 
@@ -50,6 +61,16 @@ export const SeeAllBtn = styled.div`
   }
 `;
 
-export const GoToLeft = styled.div``;
+export const GoToLeft = styled.div`
+  img {
+    width: 60px;
+    height: 60px;
+  }
+`;
 
-export const GoToRight = styled.div``;
+export const GoToRight = styled.div`
+  img {
+    width: 60px;
+    height: 60px;
+  }
+`;

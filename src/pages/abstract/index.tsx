@@ -15,7 +15,7 @@ export const AbstractPage: React.FC = () => {
         ArtDesc={ArtDesc}
         ArtPrice={ArtPrice}
       />
-      <ProductDescSection />
+      {/* <ProductDescSection /> */}
     </LandingLayout>
   );
 };

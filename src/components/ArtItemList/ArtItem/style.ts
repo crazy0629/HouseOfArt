@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
-export const ArtItemWrapper = styled.div`
-  margin-right: 11px;
-`;
+export const ArtItemWrapper = styled.div``;
 export const ArtItemContainer = styled.div`
   display: flex;
   flex-direction: column;
   color: #000000;
-
+  align-items: center;
   text-align: center;
   img {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 400px;
+    object-fit: cover;
   }
   h1 {
     font-weight: 700;

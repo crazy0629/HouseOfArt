@@ -8,6 +8,8 @@ export const ArtHomeSectionContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 95%;
+  margin: auto;
   h1 {
     font-weight: 700;
     font-size: 42px;
@@ -18,7 +20,8 @@ export const ArtHomeSectionContainer = styled.div`
     color: #000000;
   }
   h3 {
-    width: 604px;
+    max-width: 604px;
+    width: 100%;
     margin-top: 16px;
     font-weight: 400;
     font-size: 18px;

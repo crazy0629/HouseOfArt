@@ -2,7 +2,9 @@ import { styled } from "styled-components";
 
 export const AbstractInfoDetailWrapper = styled.div`
   display: flex;
+  margin-left: 30px;
   flex-direction: column;
+  flex: 1;
   h5 {
     font-weight: 700;
     font-size: 30px;
@@ -19,6 +21,10 @@ export const AbstractInfoDetailWrapper = styled.div`
     text-transform: uppercase;
     color: #000000;
   }
+  @media screen and (max-width: 900px) {
+    margin-left: 0;
+    width: 100%;
+  }
 `;
 
 export const AddToCartBtn = styled.div`
@@ -34,7 +40,8 @@ export const AddToCartBtn = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 18px 199.38px 16.09px 198.62px;
+  justify-content: center;
+  padding: 18px 0;
   background: #2e2e2e;
   border: 1px solid #2e2e2e;
   margin-top: 60px;

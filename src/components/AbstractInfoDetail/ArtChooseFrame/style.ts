@@ -39,4 +39,9 @@ export const ArtFrameContent = styled.div`
   img {
     padding-right: 40px;
   }
+  @media screen and (max-width: 500px) {
+    img {
+      padding-right: 25px;
+    }
+  }
 `;

@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const ArtFilterSectionWrapper = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 50px;
-  padding-left: 30px;
   padding-top: 37px;
   padding-bottom: 40px;
   border-top: 1px solid #cbcbcb;
@@ -17,12 +15,28 @@ export const ArtFilterSectionContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  width: 95%;
+  .select-box {
+    width: 120px;
+  }
+  @media screen and (max-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    .select-box {
+      width: 100%;
+    }
+  }
 `;
 
 export const ArtFilterList = styled.div`
   display: flex;
   flex-direction: column;
   padding-right: 30px;
+  @media screen and (max-width: 600px) {
+    padding-right: 0;
+  }
 `;
 
 export const FilterName = styled.div`

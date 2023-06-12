@@ -22,8 +22,7 @@ export const ArtCategorySection: React.FC = () => {
             <CategoryItem>CUBISM</CategoryItem>
             <CategoryItem>citySCAPE</CategoryItem>
             <CategoryItem>GEOMETRIC</CategoryItem>
-          </CategoryGroup>
-          <CategoryGroup>
+
             <CategoryItem>MINIMALISM</CategoryItem>
             <CategoryItem>SURREALISM</CategoryItem>
             <CategoryItem>PAINTED</CategoryItem>

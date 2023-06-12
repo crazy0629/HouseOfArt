@@ -38,5 +38,11 @@ export const AbstractInfoHeader = styled.div`
 export const AbstractInfoContent = styled.div`
   display: flex;
   flex-direction: row;
+  width: 95%;
+  margin: auto;
   margin-top: 64px;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;

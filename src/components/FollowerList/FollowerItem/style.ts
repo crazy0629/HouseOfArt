@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
-export const FollowerItemWrapper = styled.div`
-  padding-left: 36px;
-`;
+export const FollowerItemWrapper = styled.div``;
 
 export const FollowerItemContainer = styled.div`
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 3px 6px #ececec;
+  padding-bottom: 12px;
+  max-width: 269px;
+  margin: auto;
 `;
 
 export const ArtImage = styled.div`
   img {
-    width: 269px;
+    width: 100%;
     height: 269px;
+    object-fit: cover;
   }
 `;
 

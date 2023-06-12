@@ -2,11 +2,17 @@ import styled from "styled-components";
 
 export const ArticleListSectionWrapper = styled.div`
   margin-top: 160px;
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
 `;
 
 export const ArticleListSectionContainer = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 1240px;
+  width: 95%;
+  margin: auto;
 `;
 
 export const SectionTitle = styled.div`
@@ -15,7 +21,6 @@ export const SectionTitle = styled.div`
   line-height: 16px;
   letter-spacing: 1px;
   color: #000000;
-  padding-left: 138px;
   margin-bottom: 78px;
 `;
 

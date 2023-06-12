@@ -17,7 +17,7 @@ export const ArtFilterSection: React.FC = () => {
           <FilterName>CATEGORY</FilterName>
           <Select
             defaultValue="ALL"
-            style={{ width: 120 }}
+            className="select-box"
             options={[
               { value: "ALL1", label: "ALL" },
               { value: "ALL2", label: "ALL" },
@@ -29,7 +29,7 @@ export const ArtFilterSection: React.FC = () => {
           <FilterName>COLOR</FilterName>
           <Select
             defaultValue="ALL"
-            style={{ width: 120 }}
+            className="select-box"
             options={[
               { value: "ALL1", label: "ALL" },
               { value: "ALL2", label: "ALL" },
@@ -41,7 +41,7 @@ export const ArtFilterSection: React.FC = () => {
           <FilterName>LAYOUT</FilterName>
           <Select
             defaultValue="ALL"
-            style={{ width: 120 }}
+            className="select-box"
             options={[
               { value: "ALL1", label: "ALL" },
               { value: "ALL2", label: "ALL" },
