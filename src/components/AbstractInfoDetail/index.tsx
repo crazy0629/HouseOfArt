@@ -1,5 +1,9 @@
 import React from "react";
-import { AbstractInfoDetailWrapper } from "./style";
+import {
+  AbstractInfoDetailWrapper,
+  AddToCartBtn,
+  PrintedAndFramed,
+} from "./style";
 import { ReivewInfo } from "./ReviewInfo";
 import { ArtTypeInfo } from "./ArtTypeInfo";
 import { ArtChooseFrame } from "./ArtChooseFrame";
@@ -22,6 +26,11 @@ export const AbstractInfoDetail: React.FC<AbstractInfoDetailProps> = ({
       <ArtTypeInfo />
       <ArtChooseFrame />
       <ArtChooseSize />
+      <AddToCartBtn>ADD TO CART</AddToCartBtn>
+      <PrintedAndFramed>
+        <img src="/images/art_abstract/printed.png" alt="" />
+        <span>Printed and framed locally in the USA</span>
+      </PrintedAndFramed>
     </AbstractInfoDetailWrapper>
   );
 };
